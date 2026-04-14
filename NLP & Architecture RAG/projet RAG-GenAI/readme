@@ -1,1 +1,49 @@
+# 🤖 PDF RAG Chatbot
+
+## 🎯 Objectif
+
+Développement d’un chatbot capable de répondre à des questions à partir d’un document PDF en utilisant une architecture RAG (Retrieval-Augmented Generation).
+
+---
+
+## ⚙️ Fonctionnement
+
+* Upload d’un PDF
+* Extraction du texte
+* Découpage en chunks
+* Génération d’embeddings (Gemini)
+* Stockage vectoriel avec FAISS
+* Recherche des passages pertinents
+* Génération de réponses avec un LLM
+
+---
+
+## 🛠️ Technologies
+
+* Python
+* Streamlit
+* LangChain
+* FAISS
+* Gemini API
+
+---
+
+## 🚀 Lancer le projet
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🔒 Remarque
+
+Le projet nécessite une clé API Google (Gemini) configurée via un fichier `.env`.
+
+---
+
+## 📌 Statut
+
+Mini projet – démonstration d’un pipeline RAG simple avec interface utilisateur.
 
